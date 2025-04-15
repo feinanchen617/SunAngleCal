@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>683</width>
+    <height>569</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>90</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>29</height>
+     </size>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>日期（yyyy-mm-dd）</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="dateEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="timeEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>90</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>时间（hh:min:sec）</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>50</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>纬度（°）</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="latEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>51</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>10</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>经度（°）</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lonEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>240</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="calcButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>80</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>80</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>计算太阳角</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="resultLabel">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>40</y>
+      <width>211</width>
+      <height>151</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>683</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
